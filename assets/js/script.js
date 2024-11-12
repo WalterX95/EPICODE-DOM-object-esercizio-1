@@ -6,6 +6,7 @@
 const changeTitle = function () {
     const myHeading = document.querySelector("div:first-child > h1");
     let stringData = "Prima PAGINA DI WALTER ";
+    myHeading.innerText =  stringData;
     return stringData;
 }
 
